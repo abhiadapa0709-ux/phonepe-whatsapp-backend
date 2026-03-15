@@ -9,7 +9,7 @@ const {phone,message} = req.body
 
 await axios.post(
 
-`https://graph.facebook.com/v18.0/${process.env.https://wa.me/qr/EICSQ2PLCYW7K1}/messages`,
+`https://graph.facebook.com/v18.0/${process.env.EICSQ2PLCYW7K1}/messages`,
 
 {
 messaging_product:"whatsapp",
